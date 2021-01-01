@@ -1,0 +1,105 @@
+input[type="checkbox"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="radio"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#tendero_meta_box .modal-add{
+    position: absolute;
+    border-radius: 8px;
+    z-index: 999;
+    width: 550px;
+    background: #fff;
+    display: block;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+    box-shadow: 0px 0px 5px 0px rgba(237,237,237,1);
+}
+
+#tendero_meta_box .close_modal{
+    background-image: url("icons/close_modal.svg");
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: -25px;
+    top: -20px;
+    cursor: pointer;
+}
+
+#tendero_meta_box .shadow-modal{
+    background: rgba(90, 90, 90, 0.35);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.loader-admin-table{
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background: #00000042;
+    top: -6px;
+}
+
+
+.loader-admin-table .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    position: relative;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #4d4d4d;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+.search-input-products input{
+    border:none!important;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+
