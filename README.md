@@ -1,6 +1,6 @@
-# Estandar Tendero Master Woocommerce
+# Standar Reseller Master wich Woocommerce
 
-A WordPress master tienda woocommerce reseller with Vue.js 😍
+A WordPress master reseller woocommerce reseller with Vue.js 😍
 
 ## webpack.dev.js
 
